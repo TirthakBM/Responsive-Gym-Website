@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GYM</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" 
+            href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" 
+            integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" 
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <!-- Navigation bar-->
+        <nav class="navbar">
+            <a href="/" class="navbar__logo">TK</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navbar__menu">
+                <a href="/" class="navbar__link">Home</a>
+                <a href="/services.html" class="navbar__link">Services</a>
+                <a href="/plans.html" class="navbar__link">Plans</a>
+                <a href="/trainers.html" class="navbar__link">Trainers</a>
+            </div>
+        </nav>
+        
+        
+        <!-- Member ship section -->
+        <div class="memberships">
+            <h1 class="animate-membership">View Our Plans</h1>
+            <p class="membership__desc animate-membership">Get started today and receive 25% off your first month</p>
+            <div class="membership__wrapper">
+                <div class="membership__card animate-card">
+                    <div class="membership__title">
+                        <i class="fas fa-dumbbell card-icon"></i>
+                        <h3>Starter</h3>
+                    </div>
+                    <div class="membership__perks">
+                        <p> Get Access to entire gym</p>
+                        <p>Rs. 1000 per month</p>
+                    </div>
+                    <a href="/" class="button">Sign Up</a>
+                </div>
+                <div class="membership__card animate-card">
+                    <div class="membership__title">
+                        <i class="fas fa-bicycle card-icon"></i>
+                        <h3>Silver</h3>
+                    </div>
+                    <div class="membership__perks">
+                        <p> Get Access to entire gym</p>
+                        <p> Group fitness classes</p>
+                        <p>Rs. 1500 per month</p>
+                    </div>
+                    <a href="/" class="button">Sign Up</a>
+                </div>
+                <div class="membership__card animate-card">
+                    <div class="membership__title">
+                        <i class="fas fa-dumbbell card-icon"></i>
+                        <h3>Gold</h3>
+                    </div>
+                    <div class="membership__perks">
+                        <p> Get Access to entire gym</p>
+                        <p> Group fitness classes</p>
+                        <p> Private Personal Training</p>
+                        <p>Rs. 2000 per month</p>
+                    </div>
+                    <a href="/" class="button">Sign Up</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer section-->
+        <div class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__desc">
+                    <h1>TK Gym</h1>
+                    <p>Luxury fitness gym located in downtown India</p>
+                    <p id="phone">+91 9987654341</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__title">Contact Us</div>
+                    <a href="/services.html" class="footer__link">Contact</a>
+                    <a href="/services.html" class="footer__link">Support</a>
+                    <a href="/services.html" class="footer__link">Sponserships</a>
+                </div>
+            </div>
+            <div class="footer__wrapper">
+                <div class="footer__links">
+                <h2 class="footer__title">Memberships</h2>
+                <a class="footer__link" href="/">Pricing</a>
+                <a class="footer__link" href="/">Plans</a>
+                <a class="footer__link" href="/">FAQ</a>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a class="footer__link" href="/">Instagram</a>
+                <a class="footer__link" href="/">Facebook</a>
+                <a class="footer__link" href="/">Youtube</a>
+                <a class="footer__link" href="/">Twitter</a>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
